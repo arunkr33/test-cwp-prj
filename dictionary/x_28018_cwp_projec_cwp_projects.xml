@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="CWP Projects" max_length="40" name="x_28018_cwp_projec_cwp_projects" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Project Name" mandatory="true" max_length="100" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="200" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Detailed Description" max_length="40" name="u_string_3" type="string"/>
+    </element>
+</database>
